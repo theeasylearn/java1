@@ -1,0 +1,5 @@
+1) write a program to create circle class with 1 private variable radius. create setter and getter method and getArea method which should calculate & return area 
+
+2) write a program to create SimpleInterest class with 3 private variable amount,rate, year and setter and getter method to set and get value of private variable and also create getInterest method which return interest as float value 
+
+
