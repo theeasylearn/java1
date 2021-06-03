@@ -53,6 +53,11 @@ class bmi
     {
         System.out.println(message);
     }
+    //destructor
+    protected void finalize()
+    {
+        p("finalized method is called");
+    }
 }
 public class lesson7
 {
