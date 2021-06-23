@@ -48,7 +48,6 @@ class hierarchical2
         circle c1 = new circle(radius);
         float area = c1.getArea();
         c1.p("area is " + area);
-
         cylinder c2 = new cylinder(height,radius);
         float volume = c2.getVolume();
         c2.p("volume is" + volume);
