@@ -7,7 +7,14 @@ interface study
     public void classroom(); //no code means abstract method 
     
 }
-class company 
+class print 
+{
+    public void p(String message)
+    {
+        System.out.println(message);
+    }
+}
+class company extends print
 {
     public void work()
     {
@@ -31,7 +38,7 @@ class mycompany extends company implements study
         p("we have different dishes in our canteen on daily basis");
     }
 }
-public class multipledemo1
+public class hybriddemo1
 {
     public static void main(String arguments[])
     {
