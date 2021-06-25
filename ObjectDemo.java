@@ -33,7 +33,7 @@ class Student
     public boolean equals(Object myobject)
     {
         Student temp = (Student) myobject; //type casting into Student 
-        if(rollno==temp.rollno && name.equals(temp.name)==true && surname.equals(temp.surname)==true && gender==temp.gender)
+        if(d&& name.equals(temp.name)==true && surname.equals(temp.surname)==true && gender==temp.gender)
             return true;
         else
             return false;
