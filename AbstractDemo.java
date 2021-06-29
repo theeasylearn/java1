@@ -1,6 +1,6 @@
 abstract class box 
 {
-    abstract public void detail();  //because method is abstract we have to make class abstract
+    abstract public void detail();  //because method is abstract we have to make class abstract....
     public void p(String message)
     {
         System.out.println(message);
