@@ -37,7 +37,6 @@ public class exception3
                average = sum/count;
                p("average = " + average);
            }
-
        } 
     }
 }
