@@ -30,7 +30,7 @@ public class exception4
            boolean isOnlyLetters = name.chars().allMatch(Character::isLetter);
            if(name.trim().length()<=1 || isOnlyLetters==false)
            {
-               throw new MyException("invalid name, name must be at least 2 letter long and only english alphabets are allowed...");
+            throw new MyException("invalid name, name must be at least 2 letter long and only english alphabets are allowed...");
            }
            p("Welcome Mr/Miss/Mrs " + name);
        }
